@@ -36,7 +36,7 @@ namespace Tutorial
             InitializeComponent();
         }
 
-        public int Page_count = 1;
+        public int Page_count = 0;
         private void Form1_Load(object sender, EventArgs e)
         {
             //페이지 카운트가 1일때 버튼1번 비활성화
