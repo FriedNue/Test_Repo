@@ -103,7 +103,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1584, 861);
+            ClientSize = new Size(1621, 853);
             Controls.Add(button3);
             Controls.Add(label2);
             Controls.Add(button2);
