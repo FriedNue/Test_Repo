@@ -110,7 +110,7 @@ namespace Tutorial
             if (Page_count == 1) { button1.Enabled = false; }
             else { button1.Enabled = true; }
             //페이지 카운트가 8일때 버튼2 비활성화
-            if (Page_count == 8) { button2.Enabled = false; }
+            if (Page_count == 9) { button2.Enabled = false; }
             else { button2.Enabled = true; }
         }
 
@@ -142,7 +142,7 @@ namespace Tutorial
 
             //버튼 클릭시 페이지카운트가 0과 8사이일시
             //페이지카운트 증가
-            if (Page_count > 0 && Page_count <= 8) { Page_count++; }
+            if (Page_count > 0 && Page_count <= 9) { Page_count++; }
             Button_Click();
             Page_Image();
             //예외처리문
